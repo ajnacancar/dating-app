@@ -1,0 +1,7 @@
+<div *ngIf="members$ | async" class="row">
+  <div class="row g-4 py-5 row-cols-1 row-cols-md-3 row-cols-lg-5">
+    <div class="feature col" *ngFor="let item of members$ | async">
+      <app-member-card [member]="item"></app-member-card>
+    </div>
+  </div>
+</div>

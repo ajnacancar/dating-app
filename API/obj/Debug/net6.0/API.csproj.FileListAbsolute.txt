@@ -55,3 +55,17 @@
 /home/acancar/Documents/AngularCourse/dating-app/API/obj/Debug/net6.0/API.pdb
 /home/acancar/Documents/AngularCourse/dating-app/API/obj/Debug/net6.0/API.genruntimeconfig.cache
 /home/acancar/Documents/AngularCourse/dating-app/API/obj/Debug/net6.0/ref/API.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.Abstractions.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.JsonWebTokens.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.Logging.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.Tokens.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/System.IdentityModel.Tokens.Jwt.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.AspNetCore.Authentication.JwtBearer.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/Data/UserSeedData.json
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/System.Text.Encodings.Web.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/System.Text.Json.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/runtimes/browser/lib/net6.0/System.Text.Encodings.Web.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/AutoMapper.dll
+/home/acancar/Documents/AngularCourse/dating-app/API/bin/Debug/net6.0/AutoMapper.Extensions.Microsoft.DependencyInjection.dll

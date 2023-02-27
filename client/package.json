@@ -18,11 +18,17 @@
     "@angular/platform-browser": "^15.0.0",
     "@angular/platform-browser-dynamic": "^15.0.0",
     "@angular/router": "^15.0.0",
+    "@kolkov/ngx-gallery": "^2.0.1",
+    "angular-uploader": "^8.10.1",
     "bootstrap": "^5.2.3",
+    "bootswatch": "^5.2.3",
     "font-awesome": "^4.7.0",
     "ngx-bootstrap": "^6.2.0",
+    "ngx-spinner": "^15.0.1",
+    "ngx-toastr": "^16.0.2",
     "rxjs": "~7.5.0",
     "tslib": "^2.3.0",
+    "uploader": "^3.6.1",
     "zone.js": "~0.12.0"
   },
   "devDependencies": {

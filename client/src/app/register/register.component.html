@@ -1,0 +1,92 @@
+<form *ngIf="registerForm" [formGroup]="registerForm" (ngSubmit)="register()">
+  <h2 class="text-center text-primary">Sign up</h2>
+
+  <hr />
+
+  <div class="row">
+    <app-text-input
+      label="Username"
+      type="text"
+      [formControl]="$any(registerForm.controls['username'])"
+    ></app-text-input>
+
+    <div class="mb-3 col-12">
+      <label style="margin-right: 10px">I am a: </label>
+      <label class="form-check-label">
+        <input
+          type="radio"
+          class="form-check-input"
+          value="male"
+          formControlName="gender"
+        />
+        Male
+      </label>
+      <label class="form-check-label ms-3">
+        <input
+          type="radio"
+          class="form-check-input"
+          value="female"
+          formControlName="gender"
+        />
+        Female
+      </label>
+    </div>
+
+    <app-text-input
+      label="Known As"
+      type="text"
+      [formControl]="$any(registerForm.controls['knownAs'])"
+    ></app-text-input>
+
+    <app-date-picker
+      label="Date of Birth"
+      [maxDate]="maxDate"
+      [formControl]="$any(registerForm.controls['dateOfBirth'])"
+    ></app-date-picker>
+
+    <app-text-input
+      label="City"
+      type="text"
+      [formControl]="$any(registerForm.controls['city'])"
+    ></app-text-input>
+
+    <app-text-input
+      label="Country"
+      type="text"
+      [formControl]="$any(registerForm.controls['country'])"
+    ></app-text-input>
+
+    <app-text-input
+      label="Password"
+      type="password"
+      [formControl]="$any(registerForm.controls['password'])"
+    ></app-text-input>
+
+    <app-text-input
+      label="Confirm Password"
+      type="password"
+      [formControl]="$any(registerForm.controls['confirmPassword'])"
+    ></app-text-input>
+
+    <div class="row" *ngIf="validationErrors">
+      <ul class="text-danger">
+        <li *ngFor="let error of validationErrors">
+          {{ error }}
+        </li>
+      </ul>
+    </div>
+
+    <div class="text-center col-12">
+      <button
+        [disabled]="!registerForm.valid"
+        class="btn btn-primary me-2"
+        type="submit"
+      >
+        Register
+      </button>
+      <button class="btn btn-outline-dark" type="button" (click)="cancel()">
+        Cancel
+      </button>
+    </div>
+  </div>
+</form>

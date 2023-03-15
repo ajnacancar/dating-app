@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "3zIqCyFvmRsnisntK9Ba+iEZx0newYZd8+0YYlyk3wA=",
+  "Hash": "dSOItZK7MVrSjwkUJu60IVv7AUwFcxNrfMKMncb0wXc=",
   "Source": "API",
   "BasePath": "_content/API",
   "Mode": "Default",
@@ -170,12 +170,12 @@
       "OriginalItemSpec": "wwwroot/index.html"
     },
     {
-      "Identity": "/home/acancar/Documents/AngularCourse/dating-app/API/wwwroot/main.bd5c08ed7dc5a95b.js",
+      "Identity": "/home/acancar/Documents/AngularCourse/dating-app/API/wwwroot/main.6dceba3c3061b81c.js",
       "SourceId": "API",
       "SourceType": "Discovered",
       "ContentRoot": "/home/acancar/Documents/AngularCourse/dating-app/API/wwwroot/",
       "BasePath": "_content/API",
-      "RelativePath": "main.bd5c08ed7dc5a95b.js",
+      "RelativePath": "main.6dceba3c3061b81c.js",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -184,7 +184,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot/main.bd5c08ed7dc5a95b.js"
+      "OriginalItemSpec": "wwwroot/main.6dceba3c3061b81c.js"
     },
     {
       "Identity": "/home/acancar/Documents/AngularCourse/dating-app/API/wwwroot/polyfills.be126616119fee81.js",
